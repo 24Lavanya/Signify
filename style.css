@@ -1,0 +1,23 @@
+:root{
+    --black:black;
+    --salmon:salmon;
+    --cyan:#AEDEE0;
+    --white:#fff;
+    --dsalmon:rgb(103, 31, 23);
+    --dcyan:rgb(11, 40, 40);
+}
+*::selection{
+    background-color: #EF9D71;
+}
+body[theme="black"]{
+    background-color: var(--black);
+    color:var(--white);
+}
+body[theme="salmon"]{
+    background-color: var(--salmon);
+    color: var(--dsalmon);
+}
+body[theme="cyan"]{
+    background-color: var(--cyan);
+    color: var(--dcyan);
+}
